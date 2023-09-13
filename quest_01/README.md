@@ -75,4 +75,5 @@ def string_input(): # 함수를 실행하면 단어를 입력받아 x 변수에 
 >>>>>>> 0b504fc6d9528d2ebc1090a7c77369772771f8de
 =======
 ### clone check-woonn
+DDDDDDDFFF
 >>>>>>> c676a4ec08109a3b99853bc79d4f4958e831403d
