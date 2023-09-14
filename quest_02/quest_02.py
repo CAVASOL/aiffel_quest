@@ -1,4 +1,4 @@
-# 다음은 ColabTurtle을 사용하여 미로를 찾는 문제. 조건을 확인하여 거북이가 미로를 헤매지 않도록 출구를 찾아주도록 하자.  
+# Quest 02. 다음은 ColabTurtle을 사용하여 미로를 찾는 문제. 조건을 확인하여 거북이가 미로를 헤매지 않도록 출구를 찾아주도록 하자.  
 
 # 조건 : 미로는 5x5의 2차원 리스트로 주어진다. 시작 위치는 (0,0)이고 목적지는 (4,4)이다.  
 # 터틀은 상하좌우로 움직일 수 있다. 미로 내에서 갈 수 있는 길은 0으로 표시되어 있다. 터틀이 이미 지나간 길은 2로 표시해야한다.  
@@ -67,8 +67,57 @@ window.mainloop()
 
 ####### 회고 #######
 
+
 # 배운 점 - 파이썬 거북이 게임의 원리에 대해 알 수 있었습니다.
 
 # 아쉬운 점 - 리스트 함수형에 대한 이해와 연습이 더 필요해요.
 
 # 느낀 점 - 문제를 풀이하기 위해 그루분과 다각도로 고민하고 자료를 찾는 과정이 유익했습니다.
+
+
+####### Ref #######
+
+
+from turtle import Turtle, Screen
+
+maze = [[0, 1, 0, 0, 0], 
+        [0, 0, 0, 1, 0], 
+        [0, 1, 1, 0, 0], 
+        [0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0]]
+
+start_x, start_y = 0, 0
+end_x, end_y = 4, 4
+
+window = Screen()
+window.setup(width=100, height=100)
+
+t = Turtle()
+t.speed(1)
+
+def solve_maze(x, y):
+  if x == end_x and y == end_y:
+    print("I found the maze")
+    return True
+
+  for dx, dy in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+      nx, ny = x + dx, y + dy
+      if 0 <= nx < 5 and 0 <= ny < 5 and maze[nx][ny] == 0:
+          maze[nx][ny] = 2
+          t.pendown()
+          t.goto(nx*10, ny*10)
+          t.penup()
+  
+          if solve_maze(nx, ny):
+              return True
+          else:
+            t.pendown()
+            t.goto(x*10, y*10)
+            t.penup()
+            maze[nx][ny] = 0
+
+t.penup()
+t.goto(start_x*10, start_y*10)
+solve_maze(start_x, start_y)
+window.update()
+window.mainloop()
