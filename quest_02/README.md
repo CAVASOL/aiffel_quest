@@ -18,7 +18,6 @@ maze = [[0, 1, 0, 0, 0],
         [0, 0, 1, 1, 0],
         [0, 0, 0, 0, 0]]
 
-# 시작 위치와 목적지 위치
 start_x, start_y = 0, 0
 end_x, end_y = 4, 4
 
@@ -41,12 +40,12 @@ def solve_maze(x, y):
     t.goto(x * 10 + 5, y * 10 + 5)
     t.penup()
 
-    # 다음 위치로 이동
+
     if solve_maze(x + 1, y) or solve_maze(x, y + 1) or solve_maze(
         x - 1, y) or solve_maze(x, y - 1):
       return True
 
-    # 돌아가기
+
     t.goto(x * 10 + 5, y * 10 + 5)
     t.pendown()
     t.goto(x * 10 + 5, y * 10 + 5)
@@ -55,7 +54,7 @@ def solve_maze(x, y):
 
   return False
 
-# 시작 위치에서 미로 찾기 시작
+
 t.penup()
 t.goto(start_x * 10 + 5, start_y * 10 + 5)
 solve_maze(start_x, start_y)
