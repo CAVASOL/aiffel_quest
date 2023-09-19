@@ -1,9 +1,7 @@
 # Quest 00. Quest Title
 
 ```
-
 Quest Description
-
 ```
 
 - 난이도 : 🟡🟡🟡⚪⚪  
@@ -16,7 +14,6 @@ Quest Description
 
 ```
 Code
-
 ```
 
 - [x] 1. 코드가 정상적으로 동작하고 주어진 문제를 해결했나요?
