@@ -17,4 +17,14 @@ and briefly perform hyperparameter tuning to improve model performance.
 ### 6. Supervised learning - Regression
 
 Practice regression machine learning models. Compare with a model that applies regulation to linear regression  
-and automatically search for hyperparameters to apply to the xgboost model  
+and automatically search for hyperparameters to apply to the xgboost model.  
+
+### 7. Unsupervised Learning
+
+PCA, a representative method of dimensionality reduction, and various PCA methods.
+k-means clustering, a non-hierarchical cluster analysis, and dendlegram, a hierarchical cluster analysis.
+
+### 8. NLP, Natural language processing
+
+Adapting machine learning based on unstructured data, i.e. natural language.
+
