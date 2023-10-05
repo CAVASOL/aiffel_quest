@@ -21,10 +21,10 @@ and automatically search for hyperparameters to apply to the xgboost model.
 
 ### 7. Unsupervised Learning
 
-PCA, a representative method of dimensionality reduction, and various PCA methods.
-k-means clustering, a non-hierarchical cluster analysis, and dendlegram, a hierarchical cluster analysis.
+PCA, a representative method of dimensionality reduction, and various PCA methods.  
+k-means clustering, a non-hierarchical cluster analysis, and dendlegram, a hierarchical cluster analysis.  
 
 ### 8. NLP, Natural language processing
 
-Adapting machine learning based on unstructured data, i.e. natural language.
+Adapting machine learning based on unstructured data, i.e. natural language.  
 
