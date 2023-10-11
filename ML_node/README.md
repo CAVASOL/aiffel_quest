@@ -24,7 +24,11 @@ and automatically search for hyperparameters to apply to the xgboost model.
 PCA, a representative method of dimensionality reduction, and various PCA methods.  
 k-means clustering, a non-hierarchical cluster analysis, and dendlegram, a hierarchical cluster analysis.  
 
-### 8. NLP, Natural language processing
+### 8. NLP, Natural Language Processing
 
 Adapting machine learning based on unstructured data, i.e. natural language.  
 
+
+### 9. DL, Deep Learning
+
+Classifying simple unstructured data (images) with deep learning (TensorFlow)  
