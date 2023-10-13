@@ -35,5 +35,5 @@ Avengers Script에서 워드 단위의 2-gram을 구하고, 해당 스크립트�
 ### Main Quest 01. 두 개의 Quest 수행하기
 
 ```
-README.md 참고.
+main_quest 폴더의 README.md 참고.
 ```

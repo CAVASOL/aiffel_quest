@@ -11,7 +11,7 @@ sorting, data type conversion, use of built-in functions, grouping, apply functi
 
 ```
 From data preprocessing to machine learning model training  
-and evaluation using Scikit-Learn  
+and evaluation using Scikit-Learn.  
 ``` 
 
 ### 5. Supervised learning - Classfication
@@ -45,11 +45,11 @@ Adapting machine learning based on unstructured data, i.e. natural language.
 ### 9. DL, Deep Learning
 
 ```
-Classifying simple unstructured data (images) with deep learning (TensorFlow)  
+Classifying simple unstructured data (images) with deep learning (TensorFlow).    
 ``` 
 
 ### Main Quest 02. 가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리  
 
 ```
-README.md 참고  
+main_quest_02 폴더의 README.md 참고.  
 ```
