@@ -112,9 +112,11 @@
 * `백 오브 워즈 (Bag of Words)`: 단어 등의 텍스트 요소를 특성으로 사용하는 모델, 간단한 텍스트 분류에 사용.  
 * `TF-IDF (Term Frequency-Inverse Document Frequency)`: 단어의 중요도를 나타내는 특성을 생성하여 텍스트 분류에 사용.  
 * `Word Embeddings (Word2Vec, GloVe)`: 단어를 밀집 벡터로 표현하는 방법, 딥러닝 모델과 연계하여 텍스트 분류 및 유사성 분석에 사용.  
+```
 
 **Q. `countplot`과 `scatterplot`**  
 
+```
 1. 목적:  
     - countplot: 범주형 데이터의 빈도를 시각화하는 데 사용. 주로 각 범주가 데이터셋에 얼마나 자주 나타나는지 보여줌.  
     - scatterplot: 연속형 변수 사이의 관계를 시각화하는 데 사용. 두 변수 간의 관계, 패턴, 이상치를 확인하는 데 유용.  
