@@ -59,17 +59,25 @@
 **Q. ML 및 통계 분야에서 분류 문제의 성능을 평가하기 위해 사용되는 주요 행렬(matrix)의 유형**  
 
 ```
-1. `혼동 행렬 (Confusion Matrix)`: 가장 일반적으로 사용되는 행렬, 모델의 예측 결과와 실제 결과 간의 관계를 보여줌. 혼동 행렬은 True Positives (TP), True Negatives (TN), False Positives (FP), 그리고 False Negatives (FN) 네 가지 주요 요소를 포함.  
+1. `혼동 행렬 (Confusion Matrix)`: 가장 일반적으로 사용되는 행렬,  
+    모델의 예측 결과와 실제 결과 간의 관계를 보여줌. 혼동 행렬은 True Positives (TP), True Negatives (TN),  
+    False Positives (FP), 그리고 False Negatives (FN) 네 가지 주요 요소를 포함.  
 
 2. `오차 행렬 (Error Matrix)`: 혼동 행렬의 다른 이름으로 사용, 분류 모델의 오류를 설명하는 데 사용.  
 
-3. `등급 행렬 (Rating Matrix)`: 다중 클래스 분류 문제에서 사용, 모든 클래스 간의 혼동을 보여줌. 각 클래스에 대한 True Positives, True Negatives, False Positives 및 False Negatives를 포함.  
+3. `등급 행렬 (Rating Matrix)`: 다중 클래스 분류 문제에서 사용, 모든 클래스 간의 혼동을 보여줌.  
+    각 클래스에 대한 True Positives, True Negatives, False Positives 및 False Negatives를 포함.  
 
-4. `ROC 곡선 (Receiver Operating Characteristic Curve)`: 분류 모델의 성능을 평가하기 위한 그래프. ROC 곡선은 True Positive Rate (재현율) 대비 False Positive Rate를 그린 그래프로, 모델의 분류 임계값을 조정하여 분류 성능을 시각화하는 데 사용.  
+4. `ROC 곡선 (Receiver Operating Characteristic Curve)`: 분류 모델의 성능을 평가하기 위한 그래프.  
+    ROC 곡선은 True Positive Rate (재현율) 대비 False Positive Rate를 그린 그래프로,  
+    모델의 분류 임계값을 조정하여 분류 성능을 시각화하는 데 사용.  
 
-5. `AUC (Area Under the ROC Curve)`: ROC 곡선 아래 영역, 모델의 전반적인 성능을 요약하는 데 사용. 값은 0에서 1 사이에 있으며, 1에 가까울수록 모델의 성능이 좋음을 나타냄.  
+5. `AUC (Area Under the ROC Curve)`: ROC 곡선 아래 영역,  
+    모델의 전반적인 성능을 요약하는 데 사용. 값은 0에서 1 사이에 있으며,  
+    1에 가까울수록 모델의 성능이 좋음을 나타냄.  
 
-6. `혼동 매트릭스 히트맵 (Confusion Matrix Heatmap)`: 혼동 행렬을 시각적으로 표현한 히트맵, 클래스 간의 관계를 쉽게 파악할 수 있도록 도와줌.  
+6. `혼동 매트릭스 히트맵 (Confusion Matrix Heatmap)`: 혼동 행렬을 시각적으로 표현한 히트맵,  
+    클래스 간의 관계를 쉽게 파악할 수 있도록 도와줌.  
 
 7. `G-Measure`: 정밀도와 재현율의 조화 평균으로 모델의 성능을 평가하는 지표 중 하나.  
 
