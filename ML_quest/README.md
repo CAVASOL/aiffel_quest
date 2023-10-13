@@ -32,3 +32,8 @@ Adapting machine learning based on unstructured data, i.e. natural language.
 ### 9. DL, Deep Learning
 
 Classifying simple unstructured data (images) with deep learning (TensorFlow)  
+
+### Main Quest 02. 가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리  
+
+README.md 참고
+
