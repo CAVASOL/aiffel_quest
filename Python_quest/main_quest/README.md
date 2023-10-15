@@ -78,6 +78,8 @@
 ### Retrospect
 
 ```
+Quest 2.
+
 Q9. Aiffel_Guild 클래스에 길드별 점수를 입력하고 차감하는 guild_score 메서드를 추가해보세요. 
     guild_score 메서드는 길드 이름과 점수를 인자로 받고 길드별 스코어를 출력합니다. 
     guild_score 메서드로 점수가 입력되거나 차감되면, Aiffel 클래스에서 구현된 개별 그루의 score도 
