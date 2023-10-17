@@ -3,14 +3,14 @@
 ### DL Prep
 
 ```
-1. Can AI replace people?  
+1. Can AI replace human?  
 2. Paired Data  
 3. Unpaired Data  
 4. Reinforcement Learning  
 5. Generator and Discriminator  
 6. Convolution  
-7. Convolutional Neural Network  
-8. RNN  
+7. CNN, Convolutional Neural Network  
+8. RNN, Recurrent Neural Network 
 9. Understanding RNNs Mathematically  
 ```
 
