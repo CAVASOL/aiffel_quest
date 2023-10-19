@@ -17,6 +17,13 @@
 ### DL Perceptron and NN
 
 ```
+Perceptron
+
+    1. AND Gate
+    2. NAND(Not AND) Gate
+    3. OR Gate
+    4. XOR Gate
+
 Neural Network, NN 
 
     1. Step Function
