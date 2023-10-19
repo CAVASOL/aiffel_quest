@@ -14,5 +14,20 @@
 9. Understanding RNNs Mathematically  
 ```
 
-### DL_Perceptron
+### DL Perceptron and NN
 
+```
+Neural Network, NN 
+
+    1. Step Function
+    2. Sigmoid Function
+    3. ReLU, Rectified Linear Unit Function
+    4. 행렬의 내적과 연산
+    5. 3층 신경망의 신호 전달 과정
+    6. 항등 함수를 활용한 신경망의 순방향 신호 전달 과정
+    7. 소프트맥스 함수
+    8. Overflow
+    9. 소프트맥스 함수를 활용한 신경망의 신호 전달 과정
+    10. MNIST 활용
+    11. 배치 처리
+```
