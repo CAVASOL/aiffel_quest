@@ -1,6 +1,6 @@
 ## DL Prep
 
-### DL_prep
+### DL Prep
 
 ```
 1. Can AI replace human?  
@@ -17,24 +17,19 @@
 ### DL Perceptron and NN
 
 ```
-Perceptron
+2. Perceptron
 
-    1. AND Gate
-    2. NAND(Not AND) Gate
-    3. OR Gate
-    4. XOR Gate
+    2-1. Perceptron
+    2-2. Logic Gate
+    2-3. 가중치(weight)와 편향(bias)
 
-Neural Network, NN 
+3. Neural Network, NN 
 
-    1. Step Function
-    2. Sigmoid Function
-    3. ReLU, Rectified Linear Unit Function
-    4. 행렬의 내적과 연산
-    5. 3층 신경망의 신호 전달 과정
-    6. 항등 함수를 활용한 신경망의 순방향 신호 전달 과정
-    7. 소프트맥스 함수
-    8. Overflow
-    9. 소프트맥스 함수를 활용한 신경망의 신호 전달 과정
-    10. MNIST 활용
-    11. 배치 처리
+    3-1. Perceptron
+    3-2. Activation Function
+    3-3. 다차원 배열의 계산
+    3-4. 행렬의 내적과 연산
+    3-5. 3층 신경망의 신호 전달 과정
+    3-6. 출력층 설계하기
+    3-7. 손글씨 숫자 인식
 ```
