@@ -33,3 +33,15 @@
     3-6. 출력층 설계하기
     3-7. 손글씨 숫자 인식
 ```
+
+### DL Training NN
+
+```
+4. How do we ‘train’ neural networks ?
+
+    4-1. 데이터 주도 학습
+    4-2. Loss Function
+    4-3. Numerical Differentiation
+    4-4. Gradient
+    4-5. 학습 알고리즘 구현하기 
+```

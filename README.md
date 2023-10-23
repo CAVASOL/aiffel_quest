@@ -36,8 +36,5 @@
 ```
  DL_quest
     ├── DL_prep
-    │   ├── DL_Prep.ipynb
-    │   ├── DL_Perceptron_and_NN.ipynb
-    │   └── README.md
     └── README.md
 ```
