@@ -45,3 +45,17 @@
     4-4. Gradient
     4-5. 학습 알고리즘 구현하기 
 ```
+
+### DL Backpropagation
+
+```
+5. Backward propagation of errors
+
+    5-1. Computational Graph
+    5-2. Chain rule
+    5-3. Backpropagation
+    5-4. 계층 구현하기
+    5-5. ReLU / Sigmoid 활성화 함수 계층 구현하기
+    5-6. Affine / Softmax 계층 구현하기
+    5-7. Backpropagation 구현하기
+```
