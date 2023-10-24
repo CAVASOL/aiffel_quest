@@ -59,3 +59,18 @@
     5-6. Affine / Softmax 계층 구현하기
     5-7. Backpropagation 구현하기
 ```
+
+### DL Training Techniques
+
+```
+6. Training Techniques
+
+    6-1. Update parameter
+    6-2. Weight decay
+    6-3. Batch Nomarlization
+    6-4. Effective Deep Learning Training Strategies
+    6-5. Hyperparameter
+    Conclusion
+    Trainer Class
+    Summary
+```
