@@ -35,6 +35,7 @@
 
 ```
  DL_quest
-    ├── DL_prep
+    ├── deep_learning_from_scratch
+    ├── main_quest_03
     └── README.md
 ```

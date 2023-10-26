@@ -1,4 +1,4 @@
-## DL Prep
+## Deep Learning from Scratch
 
 ### DL Prep
 
