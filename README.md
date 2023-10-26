@@ -2,7 +2,10 @@
 
 > AIFFEL core quest archiving space
 
-## Python Quest
+## Composition
+
+
+### Python Quest
 
 ```
  Python_quest
@@ -15,7 +18,7 @@
     └── README.md
 ```
 
-## ML Quest
+### ML Quest
 
 ```
  ML_quest
@@ -31,7 +34,7 @@
     └── README.md
 ```
 
-## DL Quest
+### DL Quest
 
 ```
  DL_quest

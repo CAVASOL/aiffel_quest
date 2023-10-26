@@ -1,5 +1,6 @@
 ## Python Quest
 
+### Composition
 
 ```
 main_quest
@@ -30,6 +31,11 @@ quest_04
 README.md
 ```
 
+### Main Quest 01. 두 개의 Quest 수행하기
+
+
+main_quest 폴더의 README.md 참고.
+
 
 ### Quest 01. 회문인지 아닌지 확인하는 프로그램
 
@@ -53,10 +59,4 @@ Avengers Script 에서 워드 단위의 2-gram을 구하고, 해당 스크립트
 
 
 물고기 리스트를 입력값으로 받으면, 제너레이터와 컴프리헨션 2개의 함수는 물고기 이름과 속도를 출력합니다. 물고기의 움직임을 출력하는 컴프리헨션 함수와 제너레이터 함수를 만듭니다. 컴프리헨션 함수에는 물고기의 이름과 속도를 조합하고, 제너레티어 함수에는 for문과 yield문를 활용합니다.  
-
-
-### Main Quest 01. 두 개의 Quest 수행하기
-
-
-main_quest 폴더의 README.md 참고.
 
