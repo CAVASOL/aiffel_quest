@@ -1,4 +1,27 @@
-## ML Node
+## ML Quest
+
+
+```
+main_quest_02
+    ├── mq2_pokenon.ipynb
+    └── README.md
+2_DataHandling.ipynb
+3_DataHandling.ipynb
+4_Scikit_learn.ipynb
+5_SupervisedLearning_Classfication.ipynb
+6_SupervisedLearning_Regression.ipynb
+7_UnsupervisedLearning.ipynb
+8_NLP.ipynb
+9_DL.ipynb
+README.md
+```
+
+
+### Main Quest 02. 가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리  
+
+
+main_quest_02 폴더의 README.md 참고.  
+
 
 ### 2-3. Data Handling
 
@@ -40,10 +63,3 @@ Adapting machine learning based on unstructured data, i.e. natural language.
 
 
 Classifying simple unstructured data (images) with deep learning (TensorFlow).    
- 
-
-### Main Quest 02. 가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리  
-
-
-main_quest_02 폴더의 README.md 참고.  
-

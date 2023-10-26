@@ -1,5 +1,36 @@
 ## Python Quest
 
+
+```
+main_quest
+    ├── mq1_quest1.ipynb
+    ├── mq2_quest1.py
+    ├── mq1_quest2_ref.ipynb
+    ├── mq1_quest2.ipynb
+    ├── mq1_quest2.py
+    └── README.md
+onboarding_quest
+    └── README.md
+quest_01
+    ├── quest_01.ipynb
+    ├── quest_01.py
+    └── README.md
+quest_02
+    ├── quest_02.ipynb
+    ├── quest_02.py
+    └── README.md
+quest_03
+    ├── quest_03.ipynb
+    ├── quest_03.py
+    └── README.md
+quest_04
+    ├── quest_04.ipynb
+    ├── quest_04.py
+    └── README.md
+README.md
+```
+
+
 ### Quest 01. 회문인지 아닌지 확인하는 프로그램
 
 
@@ -26,6 +57,6 @@ Avengers Script 에서 워드 단위의 2-gram을 구하고, 해당 스크립트
 
 ### Main Quest 01. 두 개의 Quest 수행하기
 
-```
+
 main_quest 폴더의 README.md 참고.
-```
+
