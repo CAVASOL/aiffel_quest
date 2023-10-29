@@ -94,7 +94,6 @@
 
 # 더 좋은 네트워크 만들어보기
 
-```
 import tensorflow as tf
 from tensorflow import keras
 
