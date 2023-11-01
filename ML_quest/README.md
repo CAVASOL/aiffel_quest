@@ -4,18 +4,28 @@
 
 
 ```
-main_quest_02
-    ├── mq2_pokenon.ipynb
+ML_quest
+    ├── main_quest_02
+    │     ├── mq2_pokenon.ipynb
+    │     └── README.md
+    │ 
+    ├── 2_DataHandling.ipynb
+    │ 
+    ├── 3_DataHandling.ipynb
+    │ 
+    ├── 4_Scikit_learn.ipynb
+    │ 
+    ├── 5_SupervisedLearning_Classfication.ipynb
+    │ 
+    ├── 6_SupervisedLearning_Regression.ipynb
+    │ 
+    ├── 7_UnsupervisedLearning.ipynb
+    │ 
+    ├── 8_NLP.ipynb
+    │ 
+    ├── 9_DL.ipynb
+    │ 
     └── README.md
-2_DataHandling.ipynb
-3_DataHandling.ipynb
-4_Scikit_learn.ipynb
-5_SupervisedLearning_Classfication.ipynb
-6_SupervisedLearning_Regression.ipynb
-7_UnsupervisedLearning.ipynb
-8_NLP.ipynb
-9_DL.ipynb
-README.md
 ```
 
 
