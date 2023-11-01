@@ -6,8 +6,8 @@
 ```
 ML_quest
     ├── main_quest_02
-    │     ├── mq2_pokenon.ipynb
-    │     └── README.md
+    │      ├── mq2_pokenon.ipynb
+    │      └── README.md
     │ 
     ├── 2_DataHandling.ipynb
     │ 

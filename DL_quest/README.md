@@ -6,23 +6,23 @@
 ```
 DL_quest
     ├── deep_learning_from_scratch
-    │     ├── DL_prep.ipynb
-    │     ├── DL_Perceptron_and_NN.ipynb
-    │     ├── DL_Training_NN.ipynb
-    │     ├── DL_Backpropagation.ipynb
-    │     ├── DL_Training_Techniques.ipynb
-    │     ├── DL_CNN.ipynb
-    │     └── README.md
+    │      ├── DL_prep.ipynb
+    │      ├── DL_Perceptron_and_NN.ipynb
+    │      ├── DL_Training_NN.ipynb
+    │      ├── DL_Backpropagation.ipynb
+    │      ├── DL_Training_Techniques.ipynb
+    │      ├── DL_CNN.ipynb
+    │      └── README.md
     │
     ├── dl_master
-    │     ├── dl_master_1.ipynb
-    │     ├── dl_master_2.ipynb
-    │     ├── dl_master_2.ipynb
-    │     └── README.md
+    │      ├── dl_master_1.ipynb
+    │      ├── dl_master_2.ipynb
+    │      ├── dl_master_2.ipynb
+    │      └── README.md
     │
     ├── main_quest_03
-    │     ├── mq3_rock_paper_scissor.ipynb
-    │     └── README.md
+    │      ├── mq3_rock_paper_scissor.ipynb
+    │      └── README.md
     │      
     └── README.md
 ```
