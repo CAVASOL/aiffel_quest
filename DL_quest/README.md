@@ -15,6 +15,7 @@ deep_learning_from_scratch
 dl_master
     ├── dl_master_1.ipynb
     ├── dl_master_2.ipynb
+    ├── dl_master_2.ipynb
     └── README.md
 main_quest_03
     ├── mq3_rock_paper_scissor.ipynb
