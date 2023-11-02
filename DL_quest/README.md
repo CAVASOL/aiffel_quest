@@ -5,7 +5,7 @@
 
 ```
 DL_quest
-    ├── cd_with_dl
+    ├── cv_with_dl
     │      ├── 2_MLP.ipynb
     │      ├── 3_Channel Convolution.ipynb
     │      ├── 4_Channel Convolution.ipynb
