@@ -28,6 +28,7 @@ Aiffel_Quest
     │      └── README.md
     │
     ├── 3. DL_quest
+    │      ├── cv_with_dl
     │      ├── deep_learning_from_scratch
     │      ├── dl_master
     │      ├── main_quest_03
