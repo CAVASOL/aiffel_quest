@@ -36,7 +36,8 @@ DL_quest
     │      └── README.md
     │
     ├── main_quest_04
-    │      ├── title.ipynb
+    │      ├── mq4_holdup.ipynb
+    │      ├── mq4_holdup_project.ipynb
     │      └── README.md
     │      
     └── README.md
@@ -46,25 +47,22 @@ DL_quest
 
 Explore the basic concepts and principles of CNN and experiment with computer vision tasks with various modules.
 
-### Deep Learning from Scratch
 
+### Deep Learning from Scratch
 
 Goki Saito's Deep Learning From Scratch. It summarizes the contents of the three published books (1 to 3) and includes a number of example codes copied from the translator's library.
 
 
 ### Deep Learning Master
 
-
 Various methods and principles related to deep learning model design and optimization.
 
 
 ### Main Quest 03. 인공지능과 가위바위보 하기
 
-
 main_quest_03 폴더의 README.md 참고.  
 
 
 ### Main Quest 04. 폐렴아 기다려라!
-
 
 main_quest_04 폴더의 README.md 참고.  
