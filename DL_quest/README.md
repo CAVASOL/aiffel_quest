@@ -34,10 +34,17 @@ DL_quest
     ├── main_quest_03
     │      ├── mq3_rock_paper_scissor.ipynb
     │      └── README.md
+    │
+    ├── main_quest_04
+    │      ├── title.ipynb
+    │      └── README.md
     │      
     └── README.md
 ```
 
+### Computer Vision using Deep Learning
+
+Explore the basic concepts and principles of CNN and experiment with computer vision tasks with various modules.
 
 ### Deep Learning from Scratch
 
@@ -57,3 +64,7 @@ Various methods and principles related to deep learning model design and optimiz
 main_quest_03 폴더의 README.md 참고.  
 
 
+### Main Quest 04. 폐렴아 기다려라!
+
+
+main_quest_04 폴더의 README.md 참고.  
