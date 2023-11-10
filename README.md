@@ -16,15 +16,8 @@ Aiffel_Quest
     │      └── README.md
     │
     ├── 2. ML_quest
+    │      ├── discover_machine_learning
     │      ├── main_quest_02
-    │      ├── 2. Data Handling
-    │      ├── 3. Data Handling
-    │      ├── 4. Scikit-learn
-    │      ├── 5. Supervised learning - Classfication
-    │      ├── 6. Supervised learning - Regression
-    │      ├── 7. Unsupervised Learning
-    │      ├── 8. NLP
-    │      ├── 9. DL
     │      └── README.md
     │
     ├── 3. DL_quest
