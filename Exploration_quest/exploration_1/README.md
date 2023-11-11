@@ -9,7 +9,7 @@
 ### 목차
 
 | ResNet18 | ResNet34 | ResNet50 | VGG16 | 
-| :--- | :--- | 
+| :---: | :---: | :---: | :---: | 
 | Understand Dataset | Understand Dataset | Understand Dataset | Understand Dataset | 
 | Dataset preprocessing | Dataset preprocessing | Dataset preprocessing | Dataset preprocessing |
 | Design Model | Design Model | Design Model | Design Model |
