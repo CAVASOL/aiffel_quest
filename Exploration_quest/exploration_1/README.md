@@ -10,18 +10,7 @@
 
 | **ResNet18** | **ResNet34** | **ResNet50** | **VGG16** | 
 | :---: | :---: | :---: | :---: | 
-| Understand Dataset | Understand Dataset | Understand Dataset | Understand Dataset | 
-| Dataset preprocessing | Dataset preprocessing | Dataset preprocessing | Dataset preprocessing |
-| Design Model | Design Model | Design Model | Design Model |
-| Training | Training | Training | Training |
-| Visualization | Visualization | Visualization | Visualization |
-| Prediction | Prediction | Prediction | Prediction |
-| ResNet18 | ResNet34 | ResNet50 | VGG16 |
-| ResNet18  - Training | ResNet34  - Training | ResNet50  - Training | VGG16  - Training |
-| ResNet18  - Visualization | ResNet34  - Visualization | ResNet50  - Visualization | VGG16  - Visualization |
-| ResNet18  - Prediction | ResNet34  - Prediction | ResNet50  - Prediction | VGG16  - Prediction |
-| Test | Test | Test | Test |
-| 81.25 | 75.0 | 87.5 | 87.5 |
+| 87.5 | 75.0 | 87.5 | 87.5 |
 | 100% daisy | 100% sunflowers | 100% tulips | 100% daisy |
 
 ### Retrospect
