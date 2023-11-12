@@ -20,3 +20,13 @@
 ### Retrospect
 
 >tensorflow_datasets의 tf_flowers 데이터를 각각의 모델에 활용하여 성능을 평가했을 때, 결과는 각각 다르게 나타났습니다. 옵티마이저에 따른 변화가 눈의 띄었고, 에폭 조정에 따라서도 결과가 다르게 나타났습니다. 선정한 데이터의 유형과 크기를 고려한 모델 디자인과 성능 최적화에 노력했습니다. 모델 디자인과 데이터 학습 시 발생한 오류를 해결하는 과정에서 다양한 해결 방안들을 시도하였고, 결과를 나타내는 지표들의 변화들을 관찰하는 것에 집중했습니다. 각 모듈 별 실험에 관한 자세한 세부적인 내용은 해당 모듈 이름의 파일에서 확인하실 수 있으며, 실험 과정과 결과에 대한 비교 및 궁금했던 부분에 대해 xp1_retrospect.ipynb 파일에 정리하였습니다.
+
+### Reference
+
+* [Load and preprocess images](https://www.tensorflow.org/tutorials/load_data/images)
+* [Image classification](https://www.tensorflow.org/tutorials/images/classification)
+* [TensorFlow model optimization](https://www.tensorflow.org/model_optimization/guide)
+* [Weight clustering in Keras example](https://www.tensorflow.org/model_optimization/guide/clustering/clustering_example)
+* [In-depth EDA and K-Means Clustering](https://www.kaggle.com/code/thebrownviking20/in-depth-eda-and-k-means-clustering)
+* [Clustering and Analysis using EDA and K Means](https://www.kaggle.com/code/ham9615/clustering-and-analysis-using-eda-and-k-means)
+* [Python for Data Science: Implementing Exploratory Data Analysis (EDA) and K-Means Clustering](https://medium.com/@aziszamcalvin/python-for-data-science-implementing-exploratory-data-analysis-eda-and-k-means-clustering-bcf1d24adc12)
