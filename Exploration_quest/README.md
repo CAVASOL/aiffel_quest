@@ -5,11 +5,11 @@
 ```
 Exploration_quest
     ├── exploration_1
+    │       ├── xp1_cats_and_dogs.ipynb
     │       ├── xp1_flowers_resnet18.ipynb
     │       ├── xp1_flowers_resnet34.ipynb
     │       ├── xp1_flowers_resnet50.ipynb
     │       ├── xp1_flowers_vgg16.ipynb
-    │       ├── xp1_img_classification.ipynb
     │       ├── xp1_retrospect.ipynb 
     │       └── README.md
     │      
