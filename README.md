@@ -30,6 +30,7 @@ Aiffel_Quest
     │
     ├── 4. Exploration_quest
     │       ├── exploration_1
+    │       ├── exploration_2
     │       └── README.md
     │
     └── README.md

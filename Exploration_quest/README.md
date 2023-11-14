@@ -13,7 +13,10 @@ Exploration_quest
     │       ├── xp1_flowers_vgg16.ipynb
     │       ├── xp1_retrospect.ipynb 
     │       └── README.md
-    │      
+    │     
+    ├── exploration_2
+    │       └── README.md   
+    │
     └── README.md
 ```
 ### Exploration 1
