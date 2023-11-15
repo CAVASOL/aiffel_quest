@@ -8,7 +8,7 @@
 
 ### Details
 
-뉴스 기사 데이터인 [news_summary_more.csv](https://github.com/sunnysai12345/News_Summary)를 활용하여 **Extractive/Abstractive summarization**을 이해하기 위해 텍스트 정규화 기법을 적용했습니다. 이를 위해 다양한 방법으로 단어장의 크기를 줄였고, **seq2seq** 모델을 디자인했습니다. 또한 **Bahdanau 스타일의 어텐션 메커니즘**을 적용하여 모델의 성능을 향상시켰습니다. 이후, **Summa**의 **summarize** 기능을 활용하여 추출적 요약을 수행했습니다. 실험은 다음과 같은 순서로 진행되었습니다.
+뉴스 기사 데이터인 [news_summary_more.csv](https://github.com/sunnysai12345/News_Summary)를 활용하여 `Extractive/Abstractive summarization`을 이해하기 위해 텍스트 정규화 기법을 적용했습니다. 이를 위해 다양한 방법으로 단어장의 크기를 줄였고, `seq2seq` 모델을 디자인했습니다. 또한 `Bahdanau 스타일의 어텐션 메커니즘`을 적용하여 모델의 성능을 향상시켰습니다. 이후, `Summa`의 `summarize` 기능을 활용하여 추출적 요약을 수행했습니다. 실험의 과정과 결과와 관련한 회고는 `xp2_retrospect.ipynb` 파일에 정리했습니다.
 
 ### Result
 
@@ -26,3 +26,8 @@
 * [Getting Started with KerasNLP](https://keras.io/guides/keras_nlp/getting_started/)
 * [Text classification with Transformer](https://keras.io/examples/nlp/text_classification_with_transformer/)
 * [Abstractive Summarization with Hugging Face Transformers](https://keras.io/examples/nlp/t5_hf_summarization/)
+
+
+---
+
+
