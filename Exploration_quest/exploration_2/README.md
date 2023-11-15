@@ -8,12 +8,21 @@
 
 ### Details
 
-Description
+뉴스 기사 데이터인 [news_summary_more.csv](https://github.com/sunnysai12345/News_Summary)를 활용하여 **Extractive/Abstractive summarization**을 이해하기 위해 텍스트 정규화 기법을 적용했습니다. 이를 위해 다양한 방법으로 단어장의 크기를 줄였고, **seq2seq** 모델을 디자인했습니다. 또한 **Bahdanau 스타일의 어텐션 메커니즘**을 적용하여 모델의 성능을 향상시켰습니다. 이후, **Summa**의 **summarize** 기능을 활용하여 추출적 요약을 수행했습니다. 실험은 다음과 같은 순서로 진행되었습니다.
+
+### Result
+
+`xp2_retrospect.ipynb` 파일 참고.
 
 ### Retrospect
 
->Description
+>영어 원문으로 작성된 뉴스 기사를 데이터로 활용하여 추상적 요약 및 추출적 요약을 실험했습니다. 개인적으로 평소 영어로 작성된 고객 리뷰와 같은 자연어는 어떻게 분석하면 좋을지 실험 과정과 퍼포먼스에 대해 궁금했는데 이번 실험을 통해 자연어 처리 과정을 익힐 수 있어서 유익했습니다. 모델을 디자인하는 과정이 어렵게 느껴졌지만 자연어 처리 과정의 전체적인 순서를 알아볼 수 있었고, 각 과정에서 어떤 퍼포먼스가 기대되는지 그리고 무엇이 중요한지 알 수 있었습니다. 실험한 모델의 학습 결과를 살펴보면 스펠링 오타나 난해한 단어가 등장하는 것을 확인할 수 있었고, 키워드 추출을 통해 요약으로 나타난 결과가 원본 텍스트에 얼마가 근사한지 확인할 수 있다면 좋겠다고 생각합니다. 같은 데이터를 활용하여 Transformer나 Hugging Face Transformers를 활용하여 추출적 요약을 진행한다면 어떤 결과로 나타날지 궁금합니다. 
 
 ### Reference
 
-* [Link]
+* [Load text](https://www.tensorflow.org/tutorials/load_data/text)
+* [Attention layer](https://keras.io/api/layers/attention_layers/attention/)
+* [KerasNLP Workflows](https://keras.io/keras_nlp/)
+* [Getting Started with KerasNLP](https://keras.io/guides/keras_nlp/getting_started/)
+* [Text classification with Transformer](https://keras.io/examples/nlp/text_classification_with_transformer/)
+* [Abstractive Summarization with Hugging Face Transformers](https://keras.io/examples/nlp/t5_hf_summarization/)

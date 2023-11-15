@@ -15,6 +15,9 @@ Exploration_quest
     │       └── README.md
     │     
     ├── exploration_2
+    │       ├── xp1_amazon_review.ipynb
+    │       ├── xp1_news_summary.ipynb 
+    │       ├── xp2_retrospect.ipynb 
     │       └── README.md   
     │
     └── README.md
