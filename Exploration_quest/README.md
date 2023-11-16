@@ -19,7 +19,13 @@ Exploration_quest
     │       ├── xp2_news_summary.ipynb 
     │       ├── xp2_retrospect.ipynb 
     │       └── README.md   
-    │
+    │   
+    ├── exploration_3
+    │       ├── xp3_semantic_segmentation.ipynb
+    │       ├── xp3_project.ipynb 
+    │       ├── xp3_retrospect.ipynb 
+    │       └── README.md 
+    │ 
     └── README.md
 ```
 ### Exploration 1
@@ -29,3 +35,5 @@ Exploration_quest
 ### Exploration 2
 
 뉴스 기사 데이터인 `news_summary_more.csv`를 활용하여 `Extractive/Abstractive summarization`을 이해하기 위해 텍스트 정규화 기법을 적용했습니다. 이를 위해 다양한 방법으로 단어장의 크기를 줄였고, `seq2seq` 모델을 디자인했습니다. 또한 `Bahdanau 스타일의 어텐션 메커니즘`을 적용하여 모델의 성능을 향상시켰습니다. 이후, `Summa`의 `summarize` 기능을 활용하여 추출적 요약을 수행했습니다. 실험의 과정과 결과와 관련한 회고는 `xp2_retrospect.ipynb` 파일에 정리했습니다.
+
+### Exploration 3
