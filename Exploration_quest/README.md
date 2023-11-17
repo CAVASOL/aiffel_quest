@@ -23,7 +23,6 @@ Exploration_quest
     ├── exploration_3
     │       ├── xp3_semantic_segmentation.ipynb
     │       ├── xp3_project.ipynb 
-    │       ├── xp3_retrospect.ipynb 
     │       └── README.md 
     │ 
     └── README.md
@@ -37,3 +36,5 @@ Exploration_quest
 뉴스 기사 데이터인 `news_summary_more.csv`를 활용하여 `Extractive/Abstractive summarization`을 이해하기 위해 텍스트 정규화 기법을 적용했습니다. 이를 위해 다양한 방법으로 단어장의 크기를 줄였고, `seq2seq` 모델을 디자인했습니다. 또한 `Bahdanau 스타일의 어텐션 메커니즘`을 적용하여 모델의 성능을 향상시켰습니다. 이후, `Summa`의 `summarize` 기능을 활용하여 추출적 요약을 수행했습니다. 실험의 과정과 결과와 관련한 회고는 `xp2_retrospect.ipynb` 파일에 정리했습니다.
 
 ### Exploration 3
+
+인물, 강아지와 고양이, 그리고 자동차 사진에 `OpenCV` 라는 이미지 처리 라이브러리를 이용하여 아웃포커싱 효과를 적용했습니다. 또한 `Semantic Segmentation` 기술을 사용하여 물체를 감지하고 분할한 후, 두 장의 이미지를 합성하여 배경을 제거하고 크로마키 사진을 생성하였습니다. 
