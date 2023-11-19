@@ -34,5 +34,9 @@ Aiffel_Quest
     │       ├── exploration_3
     │       └── README.md
     │
+    ├── 5. DLThon
+    │       ├── main_quest_05 
+    │       └── README.md
+    │
     └── README.md
 ```
