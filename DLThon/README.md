@@ -20,7 +20,7 @@
 
 ### Reference
 
-* [Jellyfish Image - Classification](https://www.kaggle.com/code/mansi0123/jellyfish-types-using-tensorflow)
+* [Jellyfish Image - Classification](https://www.kaggle.com/code/xokent/jellyfish-image-classification)
 * [jellyfish-types using TensorFlow](https://www.kaggle.com/code/mansi0123/jellyfish-types-using-tensorflow)
 * [DenseNet-121 - Jellyfish Image Classification](https://www.kaggle.com/code/marquis03/densenet-121-jellyfish-image-classification)
 * [Object Detection for JellyFish using small dataset and RetinaNet](https://medium.com/@yhoso/detecting-jellyfish-using-openimagedata-and-keras-retinanet-77afca4e7b4f)
