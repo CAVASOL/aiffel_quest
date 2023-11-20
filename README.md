@@ -35,6 +35,7 @@ Aiffel_Quest
     │       └── README.md
     │
     ├── 5. DLThon
+    │       ├── dlthon_jellyfish.ipynb
     │       ├── main_quest_05 
     │       └── README.md
     │
