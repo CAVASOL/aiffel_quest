@@ -16,11 +16,15 @@
 
 ### Retrospect
 
->6개의 클래스로 구성된 해파리 이미지 데이터셋을 사용하여 학습 데이터, 검증 데이터, 테스트 데이터로 분리한 후, 이미지 데이터의 크기를 균일하게 조정한 다음 학습을 진행했습니다. 모델 최적화를 위해 다양한 모듈을 바탕으로 디자인한 모델을 적용하며 정확도 지표나 손실 등의 성능을 관찰했습니다. 이미지 데이터 전처리 과정이 예상보다 어려웠고, 이 과정에서 시간을 많이 할애해야 했습니다. 데이터 유형에 따라 적절하고 필요한 전처리 과정이 무엇인지 신중하게 생각하고 적용해 볼 필요가 있었습니다. 또한 이미지 데이터의 특성을 고려하여 어떤 방식의 분석 방법이 적절한가 고려해야 합니다. 이미지 데이터를 활용한 분석 작업은 데이터에 대한 이해가 중요함을 상기할 수 있었던 프로젝트였습니다.
+>6개의 클래스로 구성된 해파리 이미지 데이터셋을 사용하여 학습 데이터, 검증 데이터, 테스트 데이터로 분리한 후, 이미지 데이터의 크기를 균일하게 조정한 다음 학습을 진행했습니다. 모델 최적화를 위해 다양한 모듈을 바탕으로 디자인한 모델을 적용하며 정확도 지표나 손실 등의 성능을 관찰했습니다. 이미지 데이터 전처리 과정이 예상보다 어려웠고, 이 과정에서 시간을 많이 할애해야 했습니다. 데이터 유형에 따라 적절하고 필요한 전처리 과정이 무엇인지 신중하게 생각하고 적용해 볼 필요가 있었습니다. 또한 이미지 데이터의 특성을 고려하여 어떤 방식의 분석 방법이 적절한가 고려해야 합니다. 이미지 데이터를 활용한 분석 작업은 데이터에 대한 이해가 중요함을 상기할 수 있었던 프로젝트였습니다. 또한 짧은 시간 동안 그루님들과 다양한 모델을 적용하여 실험하고 지표를 관찰하며 성능 최적화에 대한 고민을 함께 풀어보고 각자의 생각을 이야기할 수 있어서 유익했습니다.
 
 ### Reference
 
 * [Jellyfish Image - Classification](https://www.kaggle.com/code/xokent/jellyfish-image-classification)
 * [jellyfish-types using TensorFlow](https://www.kaggle.com/code/mansi0123/jellyfish-types-using-tensorflow)
+* [Hugging Face - google/vit-base-patch16-224-in21k](https://huggingface.co/google/vit-base-patch16-224-in21k)
+* [Metatext - google vit base patch16-224-in21k model](https://metatext.io/models/google-vit-base-patch16-224-in21k)
 * [DenseNet-121 - Jellyfish Image Classification](https://www.kaggle.com/code/marquis03/densenet-121-jellyfish-image-classification)
 * [Object Detection for JellyFish using small dataset and RetinaNet](https://medium.com/@yhoso/detecting-jellyfish-using-openimagedata-and-keras-retinanet-77afca4e7b4f)
+* [Image Classification with Hugging Face Transformers and `Keras`](https://www.philschmid.de/image-classification-huggingface-transformers-keras)
+* [A complete Hugging Face tutorial: how to build and train a vision transformer](https://theaisummer.com/hugging-face-vit/)
