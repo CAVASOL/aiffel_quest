@@ -36,7 +36,7 @@ Aiffel_Quest
     │
     ├── 5. DLThon
     │       ├── dlthon_jellyfish.ipynb
-    │       ├── main_quest_05 
+    │       ├── Kaggle_KaKR.ipynb 
     │       └── README.md
     │
     └── README.md
