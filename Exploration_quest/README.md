@@ -25,6 +25,11 @@ Exploration_quest
     │       ├── xp3_project.ipynb 
     │       └── README.md 
     │ 
+    ├── exploration_4
+    │       ├── xp4_generative_modeling.ipynb
+    │       ├── xp4_project.ipynb 
+    │       └── README.md
+    │
     └── README.md
 ```
 ### Exploration 1
@@ -38,3 +43,7 @@ Exploration_quest
 ### Exploration 3
 
 인물, 강아지와 고양이, 그리고 자동차 사진에 `OpenCV` 라는 이미지 처리 라이브러리를 이용하여 아웃포커싱 효과를 적용했습니다. 또한 `Semantic Segmentation` 기술을 사용하여 물체를 감지하고 분할한 후, 두 장의 이미지를 합성하여 배경을 제거하고 크로마키 사진을 생성하였습니다. 
+
+### Exploration 4
+
+FASHION-MNIST 데이터 생성용 `DCGAN` 모델구조를 이용해서 `CIFAR-10` 데이터를 생성하는 모델을 제작했습니다. 이미지 데이터의 형태를 (28, 28, 1)에서 (32, 32, 3)으로 조정했고, 이를 반영하여 생성자와 판별자 모델의 입력 및 출력 형태와 모델 구조를 변경했습니다. 또한, RGB 3채널의 컬러 이미지 시각화 과정과 관련하여 고려해야 할 부분들을 추가하여 작업하였고, 결과를 확인했습니다.
