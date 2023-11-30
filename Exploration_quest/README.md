@@ -28,6 +28,7 @@ Exploration_quest
     ├── exploration_4
     │       ├── cifar10_init.gif
     │       ├── cifar10_recap.gif
+    │       ├── fashion_mnist_dcgan.gif
     │       ├── README.md
     │       ├── xp4_generative_modeling.ipynb
     │       ├── xp4_initial.png
