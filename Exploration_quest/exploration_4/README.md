@@ -16,8 +16,8 @@ FASHION-MNIST 데이터 생성용 `DCGAN 모델구조`를 이용해서 `CIFAR-10
 
 | **Initial GAN** | **Recap GAN** | 
 | :---: | :---: | 
-| <img align="center" alt="result image data for initial generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/xp4_initial.png" width="40%"> | <img align="center" alt="result image data for reconstructed generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/xp4_recap.png" width="40%"> | 
-| <img align="center" alt="gif of resulting image data for initial generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/cifar10_init.gif?raw=true" width="40%"> | <img align="center" alt="gif of resulting image data for reconstructed generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/cifar10_recap.gif?raw=true" width="40%"> |  
+| <img align="center" alt="result image data for initial generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/xp4_initial.png" width="100%"> | <img align="center" alt="result image data for reconstructed generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/xp4_recap.png" width="100%"> | 
+| <img align="center" alt="gif of resulting image data for initial generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/cifar10_init.gif?raw=true" width="100%"> | <img align="center" alt="gif of resulting image data for reconstructed generative modeling" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Exploration_quest/exploration_4/cifar10_recap.gif?raw=true" width="100%"> |  
 
 ### Retrospect
 
