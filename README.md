@@ -33,6 +33,7 @@ Aiffel_Quest
     │       ├── exploration_2
     │       ├── exploration_3
     │       ├── exploration_4
+    │       ├── exploration_5
     │       └── README.md
     │
     ├── 5. DLThon
