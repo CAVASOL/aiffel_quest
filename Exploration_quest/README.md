@@ -35,7 +35,7 @@ Exploration_quest
     │       ├── xp4_project.ipynb 
     │       └── xp4_recap.png
     │ 
-    ├── exploration_4
+    ├── exploration_5
     │       ├── xp5_project.ipynb
     │       ├── xp5_transformer_chatbot.ipynb
     │       └── README.md
