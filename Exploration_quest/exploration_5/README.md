@@ -192,6 +192,9 @@ MAX_LENGTH = 30
 
 print("Maximum length of sentence:", MAX_LENGTH)
 
+epochs - 노드에서 10 시행한것을 chatbot-> 30으로 시행하여
+loss가 줄어든 것을 그래프로 확인하였음
+
 ```
 
         
