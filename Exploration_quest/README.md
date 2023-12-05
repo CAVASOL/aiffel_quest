@@ -41,6 +41,13 @@ Exploration_quest
     │       ├── xp5_transformer_chatbot.ipynb
     │       └── README.md
     │
+    ├── exploration_6
+    │       ├── xp6_controlnet.ipynb
+    │       ├── xp6_deploy_project.ipynb  
+    │       ├── xp6_mlops.ipynb
+    │       ├── xp6_stable_diffusion.ipynb
+    │       └── README.md
+    │
     └── README.md
 ```
 ### Exploration 1
