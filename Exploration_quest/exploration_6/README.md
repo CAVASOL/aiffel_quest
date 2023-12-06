@@ -15,7 +15,7 @@
 
 **Details**
 
-Create individual images using `ControlNet`'s OpenPose and Canny, and then `create an image` by `mixing OpenPose and Canny` again.
+`Utilize OpenPose & Canny` to create distinct individual images. Merge them for a new visual experience, blending human actions with edge-detected forms to produce unique, intriguing visuals.
 
 **Result** 
 
@@ -42,7 +42,7 @@ Create individual images using `ControlNet`'s OpenPose and Canny, and then `crea
 
 **Details**
 
-Mission to `select one of the projects`, `finetune hyperparameters`, and deploy it with `TFServing & Docker`.
+`The goal involves choosing a project, adjusting its parameters precisely, and deploying it using TFServing and Docker`. The focus is on optimizing model performance by finetuning parameters and ensuring seamless deployment for efficient functionality within a Docker container.
 
 **Result** 
 
