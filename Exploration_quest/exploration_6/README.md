@@ -2,8 +2,8 @@
 
 ### Index
 
-1. Create Image with ControlNet
-2. Deploy Model with TKserving and Docker
+1. Create Image with ControlNet - `xp6_cotrolnet.ipynb`
+2. Deploy Model with TKserving and Docker - `xp6_deploy_project.ipynb`
 
 ### 1. Create Image with ControlNet
 
