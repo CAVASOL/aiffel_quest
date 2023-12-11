@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-void main() {
+void pomodoro() {
   runApp(const PomodoroApp());
 }
 
@@ -40,34 +40,32 @@ class _PomodoroTimerState extends State<PomodoroTimer> {
 
   void startTimer() {
     timer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      setState(() {
-        if (!isPaused) {
-          if (currentDuration > 0) {
-            currentDuration--;
-          } else {
-            if (isWorking) {
-              cycles++;
-              if (cycles >= 4) {
-                workDuration = 25 * 60;
-                breakDuration = 15 * 60;
-                cycles = 0;
-              }
-              isWorking = false;
-              currentDuration = breakDuration;
-            } else {
-              isWorking = true;
-              currentDuration = workDuration;
+      setState(() {});
+      if (!isPaused) {
+        if (currentDuration > 0) {
+          currentDuration--;
+        } else {
+          if (isWorking) {
+            cycles++;
+            if (cycles >= 4) {
+              workDuration = 25 * 60;
+              breakDuration = 15 * 60;
+              cycles = 0;
             }
+            isWorking = false;
+            currentDuration = breakDuration;
+          } else {
+            isWorking = true;
+            currentDuration = workDuration;
           }
         }
-      });
+      }
     });
   }
 
   void toggleTimer() {
-    setState(() {
-      isPaused = !isPaused;
-    });
+    setState(() {});
+    isPaused = !isPaused;
   }
 
   String getTimerText() {
