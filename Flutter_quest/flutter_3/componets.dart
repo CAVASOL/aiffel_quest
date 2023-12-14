@@ -1,4 +1,4 @@
-// // // ignore_for_file: avoid_print
+// // ignore_for_file: avoid_print
 
 // import 'package:flutter/material.dart';
 
@@ -38,11 +38,14 @@
 //             child: Column(
 //               children: [
 //                 ElevatedButton(
+//                   style: ElevatedButton.styleFrom(
+//                     backgroundColor: Colors.black,
+//                   ),
 //                   onPressed: onChanged,
 //                   child: const Text(
 //                     'Text',
 //                     style: TextStyle(
-//                       fontSize: 24,
+//                       fontSize: 20,
 //                     ),
 //                   ),
 //                 ),
