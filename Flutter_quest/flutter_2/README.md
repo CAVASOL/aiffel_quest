@@ -4,6 +4,8 @@
 
 `pomodoro.dart` 파일 참고.  
 
+<img align="center" src="./pomodoro.png" width="300px" />
+
 ### Retrospect
 
 > pomodoro timer를 개인적으로 작업하고 있었어서 디자인이 조금 수월했어요. 아이콘 버튼으로 타이머를 정지하거나 실행할 수 있도록 구성했습니다. 위젯을 연결하는 부분이 아직은 서툴지만 재밌어요.
