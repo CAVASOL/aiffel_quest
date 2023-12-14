@@ -4,7 +4,7 @@
 
 `pomodoro.dart` 파일 참고.  
 
-<img align="center" src="./pomodoro.png" width="300px" />
+<img align="center" src="./pomodoro.png" width="700px" />
 
 ### Retrospect
 
