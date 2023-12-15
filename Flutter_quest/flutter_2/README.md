@@ -4,7 +4,7 @@
 
 `flutterapp.dart` 파일 참고.  
 
-Check this [demo](https://github.com/CAVASOL/flutter_script).
+Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/create_app.dart).
 
 <img align="center" src="./quest26.png" width="300px" />
 
