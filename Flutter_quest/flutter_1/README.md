@@ -4,7 +4,7 @@
 
 `pomodoro.dart` 파일 참고.  
 
-Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/pomodoro.dart).
+Check this [demo](https://github.com/CAVASOL/flutter_script/tree/main/lib/pomodoro).
 
 <img align="center" src="./pomodoro.png" width="500px" />
 
