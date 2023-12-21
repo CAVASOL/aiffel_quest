@@ -30,13 +30,13 @@ async def read_root():
 async def sample_prediction():
     result = await vgg16_prediction_model.prediction_model()
     print(result["predicted_label"])
-    return result
+    return result["predicted_label"]
 
 @app.get('/sample2')
 async def sample_prediction():
     result = await vgg16_prediction_model.prediction_model()
     print(result["prediction_score"])
-    return result
+    return result["prediction_score"]
 
 
 # Run the server
