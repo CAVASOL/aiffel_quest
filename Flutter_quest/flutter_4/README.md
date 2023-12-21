@@ -12,6 +12,17 @@ Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/vgg16-
 
 ### Retrospect
 
+```
+aiffel
+    └── jellyfish
+            ├── sample_data
+            │       └── jellyfish.jpg
+            │
+            ├── server_fastapi_vgg16.py
+            ├── vgg16.h5
+            └── vgg16_prediction_model.py
+```
+
 > 로컬에서는 레이블과 확률을 확인할 수 있었는데 미니앱에서는 데이터를 불러오는 과정에서 오류가 생겼어요. 오류를 해결하기 위해 코드를 여러차례 수정했지만 503오류를 막을 수 없었습니다. 아쉬워요. ----- 로컬에서 try it out을 실행하지 않은 상태에서 디버깅을 시도하였고, 그 결과 각각의 버튼을 눌렀을 때 콘솔에 레이블 또는 확률이 출력되었어요. 
 
 ---
