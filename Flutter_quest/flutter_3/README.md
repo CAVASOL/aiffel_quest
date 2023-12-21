@@ -8,7 +8,7 @@ Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/pages/
 
 <img align="center" src="./pages.png" width="500px" />
 
-<img align="center" src="./console.png" width="500px" />
+<img align="center" src="./console.png" width="800px" />
 
 
 ### Retrospect
