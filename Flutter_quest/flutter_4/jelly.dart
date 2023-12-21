@@ -27,13 +27,14 @@
 //   _MyHomePageState createState() => _MyHomePageState();
 // }
 
+
 // class _MyHomePageState extends State<MyHomePage> {
 //   String result = "";
 //   TextEditingController urlController = TextEditingController();
 
 //   Future<void> fetchData(int queryType) async {
 //     try {
-//       const enteredUrl = 'https://5dc8-34-83-37-72.ngrok-free.app/';
+//       const enteredUrl = 'https://5647-34-83-37-72.ngrok-free.app/';
 //       final response = await http.get(
 //         Uri.parse("${enteredUrl}sample1"),
 //         headers: {
@@ -45,9 +46,9 @@
 //         final data = jsonDecode(response.body);
 //         setState(() {
 //           if (queryType == 1) {
-//             result = "예측 라벨: ${data['predicted_label']}";
+//             result = "Predicted label: ${data['predicted_label']}";
 //           } else if (queryType == 2) {
-//             result = "예측 확률: ${data['prediction_score']}";
+//             result = "Predicted score: ${data['prediction_score']}";
 //           }
 //         });
 //       } else {
