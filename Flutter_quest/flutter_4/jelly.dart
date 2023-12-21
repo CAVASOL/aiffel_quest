@@ -1,4 +1,4 @@
-// // ignore_for_file: use_key_in_widget_constructors, library_private_types_in_public_api, avoid_print
+// // ignore_for_file: library_private_types_in_public_api, avoid_print
 
 // import 'dart:convert';
 // import 'package:flutter/material.dart';
@@ -9,30 +9,33 @@
 // }
 
 // class MyApp extends StatelessWidget {
-//   const MyApp({Key? key});
+//   const MyApp({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
 //     return const MaterialApp(
+//       debugShowCheckedModeBanner: false,
 //       home: MyHomePage(),
 //     );
 //   }
 // }
 
 // class MyHomePage extends StatefulWidget {
-//   const MyHomePage({Key? key});
+//   const MyHomePage({super.key});
 
 //   @override
 //   _MyHomePageState createState() => _MyHomePageState();
 // }
 
 // class _MyHomePageState extends State<MyHomePage> {
+//   String result = "";
 //   TextEditingController urlController = TextEditingController();
 
-//   Future<void> fetchUrlData(String url) async {
+//   Future<void> fetchData(int queryType) async {
 //     try {
+//       const enteredUrl = 'https://5dc8-34-83-37-72.ngrok-free.app/';
 //       final response = await http.get(
-//         Uri.parse(url),
+//         Uri.parse("${enteredUrl}sample1"),
 //         headers: {
 //           'Content-Type': 'application/json',
 //           'ngrok-skip-browser-warning': '69420',
@@ -40,82 +43,100 @@
 //       );
 //       if (response.statusCode == 200) {
 //         final data = jsonDecode(response.body);
-//         print("URL: $url");
-//         print("predicted_label: ${data['predicted_label']}");
-//         print("prediction_score: ${data['prediction_score']}");
+//         setState(() {
+//           if (queryType == 1) {
+//             result = "예측 라벨: ${data['predicted_label']}";
+//           } else if (queryType == 2) {
+//             result = "예측 확률: ${data['prediction_score']}";
+//           }
+//         });
 //       } else {
-//         print(
-//             "Failed to fetch data from $url. Status Code: ${response.statusCode}");
+//         setState(() {
+//           result = "Failed to fetch data. Status Code: ${response.statusCode}";
+//         });
 //       }
+//       print(result);
 //     } catch (e) {
-//       print("Error fetching data from $url: $e");
+//       setState(() {
+//         result = "Error: $e";
+//       });
 //     }
 //   }
 
 //   @override
 //   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         leading: Image.asset(
-//           'images/jelly.png',
-//         ),
-//         title: const Text(
-//           'Jellyfish Classifier',
-//           style: TextStyle(
-//             color: Colors.black,
-//             fontWeight: FontWeight.w600,
-//             fontSize: 20,
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         appBar: AppBar(
+//           leading: Image.asset(
+//             'images/jelly.png',
 //           ),
+//           title: const Text(
+//             'Jellyfish Classifier',
+//             style: TextStyle(
+//               color: Colors.black,
+//               fontWeight: FontWeight.w600,
+//               fontSize: 20,
+//             ),
+//           ),
+//           backgroundColor: Colors.white,
 //         ),
-//         backgroundColor: Colors.white,
-//       ),
-//       resizeToAvoidBottomInset: false,
-//       body: Center(
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//             Image.asset(
-//               'images/jelly.jpg',
-//               width: 300,
-//               height: 300,
-//             ),
-//             const SizedBox(
-//               height: 10,
-//             ),
-//             Row(
-//               mainAxisAlignment: MainAxisAlignment.spaceAround,
-//               children: [
-//                 ElevatedButton(
-//                   style: ElevatedButton.styleFrom(
-//                     backgroundColor: Colors.cyan,
-//                   ),
-//                   onPressed: () => fetchUrlData(
-//                       "https://9e18-34-83-37-72.ngrok-free.app/sample1"),
-//                   child: const Text(
-//                     'Label',
-//                     style: TextStyle(
-//                       fontSize: 16,
-//                       color: Colors.white,
+//         resizeToAvoidBottomInset: false,
+//         body: Center(
+//           child: Column(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: [
+//               Image.asset(
+//                 'images/jelly.jpg',
+//                 width: 300,
+//                 height: 300,
+//               ),
+//               const SizedBox(
+//                 height: 10,
+//               ),
+//               Row(
+//                 mainAxisAlignment: MainAxisAlignment.spaceAround,
+//                 children: [
+//                   ElevatedButton(
+//                     style: ElevatedButton.styleFrom(
+//                       backgroundColor: Colors.cyan,
+//                     ),
+//                     onPressed: () => fetchData(1),
+//                     child: const Text(
+//                       'Label',
+//                       style: TextStyle(
+//                         fontSize: 16,
+//                         color: Colors.white,
+//                       ),
 //                     ),
 //                   ),
-//                 ),
-//                 ElevatedButton(
-//                   style: ElevatedButton.styleFrom(
-//                     backgroundColor: Colors.cyan,
-//                   ),
-//                   onPressed: () => fetchUrlData(
-//                       "https://9e18-34-83-37-72.ngrok-free.app/sample2"),
-//                   child: const Text(
-//                     'Score',
-//                     style: TextStyle(
-//                       fontSize: 16,
-//                       color: Colors.white,
+//                   ElevatedButton(
+//                     style: ElevatedButton.styleFrom(
+//                       backgroundColor: Colors.cyan,
+//                     ),
+//                     onPressed: () => fetchData(2),
+//                     child: const Text(
+//                       'Score',
+//                       style: TextStyle(
+//                         fontSize: 16,
+//                         color: Colors.white,
+//                       ),
 //                     ),
 //                   ),
+//                 ],
+//               ),
+//               const SizedBox(
+//                 height: 10,
+//               ),
+//               Text(
+//                 result,
+//                 style: const TextStyle(
+//                   fontSize: 16,
 //                 ),
-//               ],
-//             ),
-//           ],
+//               ),
+//             ],
+//           ),
 //         ),
 //       ),
 //     );
