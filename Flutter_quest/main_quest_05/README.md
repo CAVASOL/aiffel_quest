@@ -1,4 +1,4 @@
-## target
+## Target
 
 **Creator: Yeon Kim**
 
