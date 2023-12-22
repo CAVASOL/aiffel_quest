@@ -38,7 +38,7 @@ Demo Screen
 
 이 앱은 다양한 종류의 과일과 채소에 대한 정보를 필요로 하는 사람들에게 유용할 것이며, 사용하기 쉬운 인터페이스를 원합니다.
 
-<img align="center" src="./target_userpersona.png" width="880px" />
+<img align="center" src="./target_userpersona-1.png" width="880px" />
 
 
 ### **3. UI/UX Design**
@@ -49,14 +49,14 @@ Demo Screen
 
 **사용자 플로우**
 
-<img align="center" src="./target_userflow.png" width="880px" />
+<img align="center" src="./target_userflow-1.png" width="880px" />
 
 
 ### **4. 화면 구성 및 기능**
 
 **디자인 와이어 프레임**
 
-<img align="center" src="./target_early.png" width="880px" />
+<img align="center" src="./target_early-1.png" width="880px" />
 
 **각 화면의 목적과 기능**
 
@@ -137,6 +137,8 @@ Kaggle, Flutter, Dart, Firebase, ect.
 * [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#:~:text=Web%20Content%20Accessibility%20Guidelines%20(WCAG)%202.1%20defines%20how%20to%20make,%2C%20learning%2C%20and%20neurological%20disabilities.)
 
 ### Demo Screen
+
+Check the Target's demo version [here](https://github.com/CAVASOL/target).
 
 <img align="center" src="./demo.png" width="300px" />
 
