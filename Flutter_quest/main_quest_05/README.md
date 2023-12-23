@@ -4,19 +4,18 @@
 
 **Index**
 
-1. 개요 및 목표
-2. 사용자 분석
-3. UI/UX Design
-4. 화면 구성 및 기능
-5. 사용자 경험 설계
-6. 앱의 기본 기능
-7. 테스트 및 디버깅 전략
-8. 개발 일정 및 계획
-9. 리소스 및 도구
-10. 참고 자료
-
-Demo Screen
-회고
+1. 개요 및 목표  
+2. 사용자 분석  
+3. UI/UX Design  
+4. 화면 구성 및 기능  
+5. 사용자 경험 설계  
+6. 앱의 기본 기능  
+7. 테스트 및 디버깅 전략  
+8. 개발 일정 및 계획  
+9. 리소스 및 도구  
+10. 참고 자료  
+Demo Screen  
+Retrospect  
 
 
 ### **1. 개요 및 목표**
@@ -127,7 +126,7 @@ Demo Screen
 
 **소프트웨어 및 라이브러리**  
 
-Kaggle, Flutter, Dart, Firebase, ect.  
+Kaggle, Flutter, Dart, Firebase, etc.  
 
 
 ### **10. 참고 자료**
