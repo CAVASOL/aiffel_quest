@@ -50,5 +50,10 @@ Aiffel_Quest
     │       ├── main_quest_05
     │       └── README.md
     │
+    ├── 7. Reference
+    │       ├── 30vnfoods.ipynb
+    │       ├── breaking_out_of_model_fit.ipynb
+    │       └── README.md
+    │
     └── README.md
 ```
