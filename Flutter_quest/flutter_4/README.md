@@ -4,7 +4,7 @@
 
 `jelly.dart` 파일 참고.  
 
-Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/vgg16-jellyfish/jelly.dart).
+Check this [demo](https://github.com/CAVASOL/flutter_script/blob/main/lib/mini_projects/vgg16-jellyfish/jelly.dart).
 
 <img align="center" src="./demo.png" width="500px" />
 
