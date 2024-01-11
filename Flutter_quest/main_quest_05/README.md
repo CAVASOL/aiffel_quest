@@ -1,1 +1,0 @@
-<img align="center" alt="office hey ohh gif" src="https://github.com/CAVASOL/aiffel_quest/blob/main/Flutter_quest/main_quest_05/heyo.gif?raw=true" width="40%">
