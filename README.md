@@ -53,6 +53,8 @@ Aiffel_Quest
     ├── 7. Reference
     │       ├── 30vnfoods.ipynb
     │       ├── breaking_out_of_model_fit.ipynb
+    │       ├── Beyond_Jupyter.ipynb
+    │       ├── Beyond_model_fit().ipynb
     │       └── README.md
     │
     └── README.md
